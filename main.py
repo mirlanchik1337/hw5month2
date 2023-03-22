@@ -24,13 +24,15 @@ import random
 
 
 class A1:
-    def __init__(self, a):
+    def __init__(self, a, b):
         self.a = a
-
+        self.b = b
+c = A1("a", 'b')
 
 a = A1('a')
 print(a)
 import colorama
+
 print(colorama.Back.GREEN)
 print(colorama.Back.GREEN)
 print(colorama.Back.GREEN)
